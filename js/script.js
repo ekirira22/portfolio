@@ -11,3 +11,8 @@ anchorr.addEventListener('mouseover', () => {
     anchorr.style.color = "wheat";
 });
 
+//change anchor tag color when mouse leaves
+anchorr.addEventListener('mouseout', () => {
+    anchorr.style.color = "white";
+})
+
