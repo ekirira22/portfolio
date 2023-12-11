@@ -1,5 +1,6 @@
-// const h2 = document.createElement("h2");
+const contact = document.getElementById("contactme");
 
-// h2.textContent = "This is my world";
+contact.addEventListener('click', function(){
+    alert("Call me @ +254719405599");
+});
 
-// document.querySelector("body").appendChild(h2);
