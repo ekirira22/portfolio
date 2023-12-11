@@ -8,6 +8,9 @@ body{
     margin: auto;
     margin-top: 30px;
 }
+
+/* Navigation styline */
+
 nav{
     font-size: 18px;
     margin-top: 50px;
@@ -21,7 +24,35 @@ div#rightnav span{
 
 }
 
+/*Anchor tag modification*/
+
 a{
     text-decoration: none;
     color: inherit;
+}
+
+/* Hero section Styling */
+
+div#hero{
+    background-color: lightgray;
+    color: #333333;
+    text-align: center;
+
+}
+div#mainhero{
+    display: flex;
+    justify-content: space-between;
+}
+div#lefthero{
+    margin-top: 50px;
+    position: relative;
+    text-align: left;
+}
+#lefthero h1{
+    font-size: 75px;
+    font-weight: 100;
+}
+div#righthero{
+   
+
 }
