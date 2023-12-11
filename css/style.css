@@ -29,6 +29,7 @@ div#rightnav span{
 a{
     text-decoration: none;
     color: inherit;
+    cursor: hand;
 }
 
 /* Hero section Styling */
